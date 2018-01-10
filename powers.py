@@ -1,3 +1,5 @@
+# Made by: 
+
 # read superhero.json
 import json
 from pprint import pprint
@@ -16,6 +18,8 @@ for member in members:
 		# add that to our list of powers
 		powers.append(power)
 
+# Get only unique elemets
 unique_powers = list(set(powers))
 
+# print those unique elements
 pprint(unique_powers)
